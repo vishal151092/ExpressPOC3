@@ -23,9 +23,7 @@ router.all('/:class/result', (req,res)=>{
     res.send(`faculty asking result of class ${req.params.class}`)
 })
 
-routerHeight.get('/', (req,res)=>{
 
-})
 
 
 module.exports = router;
